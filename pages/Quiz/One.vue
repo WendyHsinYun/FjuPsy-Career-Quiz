@@ -25,7 +25,6 @@ QuizLayout
 
     QuizButton(@click='optionB'  :backgroundColor='"#395e5d"')
       span 繼續獨自探索
-
 </template>
 
 <script setup>
@@ -45,18 +44,25 @@ const optionB = () => {
 <style lang="sass" scoped>
 .backgroundImg
   position: absolute
-  width: 100%
+  width: 150%
   z-index: -1
 
 .roleImg
   position: absolute
-  z-index: 2
+  z-index: 0
   width: 25%
   left: 10%
   bottom: 0%
 
 .descriptionText
-  font-size: 32px
+  font-size: 28px
   animation: fadeIn 1s ease-out forwards
 
+@media (max-width: 960px)
+  .backgroundImg
+    height: 100%
+  .roleImg
+    width: 30%
+  .descriptionText
+    font-size: 22px
 </style>

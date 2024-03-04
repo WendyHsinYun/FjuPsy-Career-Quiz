@@ -16,7 +16,7 @@ const props = defineProps({
 button 
   width: 60%
   padding: 20px
-  font-size: 24px
+  font-size: 22px
   color: white
   box-sizing: border-box
   border-radius: 15px
@@ -29,4 +29,10 @@ button:hover
   background-color: #748E8D
   transform: translateY(-5px)
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3)
+
+@media (max-width: 960px)
+  button
+    width: 70%
+    font-size: 18px
+    padding: 15px
 </style>

@@ -37,11 +37,19 @@ const optionB = () => {
 <style lang="sass" scoped>
 .backgroundImg
   position: absolute
-  width: 100%
+  width: 120vw
   transform: translateY(-30%)
   z-index: -1
 
 .descriptionText
   font-size: 32px
   animation: fadeIn 1s ease-out forwards
+
+@media (max-width: 960px)
+  .backgroundImg
+    width: 180%
+    height: 150%
+
+  .descriptionText
+    font-size: 22px
 </style>

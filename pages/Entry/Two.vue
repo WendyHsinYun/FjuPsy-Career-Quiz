@@ -16,7 +16,6 @@ v-row(no-gutters)
         :src="'entry2_button'"
         format="webp"
         alt="entry2 button"
-        width="120"
         preload
         placeholder)
 </template>
@@ -55,11 +54,23 @@ const nextPage = () => {
     position: absolute
     bottom: 15%
     left: 75%
-    animation: bounce 1s infinite
-      
-@keyframes bounce
-  0%, 100%
-    transform: translateY(0)
-  50%
-    transform: translateY(-10px)
+    animation: buttonBounce 1s infinite
+    .buttonImg
+      width: 120px
+
+
+@media (max-width: 960px)
+  .container
+    .backgroundImg
+      height: 110vh
+    .descriptionContainer
+      width: 75%
+      left: 10%
+      .descriptionText
+        font-size: 22px
+    button
+      left: 40%
+      bottom: 20%
+      .buttonImg
+        width: 80px
 </style>

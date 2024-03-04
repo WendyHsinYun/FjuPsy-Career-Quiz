@@ -30,7 +30,6 @@ v-row(no-gutters)
         :src="'entry1_button'"
         format="webp"
         alt="entry button"
-        width="200"
         preload
         placeholder)
 </template>
@@ -49,7 +48,7 @@ const nextPage = () => {
   z-index: -1
   .backgroundImg
     position: absolute
-    width: 100%
+    height: 120%
 
   .adventurerImg
     position: absolute
@@ -93,10 +92,46 @@ const nextPage = () => {
 
   button
     position: absolute
-    width: 100px
+    width: 200px
     bottom: 15%
     left: 70%
-    animation: bounce 1s infinite
+    animation: buttonBounce 1s infinite
+    .buttonImg
+      width: 200px
       
 
+@media (max-width: 960px)
+  .container
+    .adventurerImg
+      width: 30vw
+    .signContainer
+      width: 275px
+      height: 380px
+      top: -10%
+      left: 50%
+      transform: translateX(-50%)
+      .signText
+        bottom: 80px
+        font-size: 24px
+        padding: 15px 20px
+        margin: 0px 20px
+    .remindContainer
+      bottom: 35%
+      left: 50%
+      transform: translateX(-55%)
+      padding: 15px 20px
+      width: 280px
+      .remindText
+        font-size: 20px
+      .remarkText
+        margin-top: 10px
+        font-size: 18px
+    button
+      width: 150px
+      bottom: 15%
+      left: 50%
+      .buttonImg
+        width: 150px
+      
+          
 </style>

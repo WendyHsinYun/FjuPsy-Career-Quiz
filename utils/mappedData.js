@@ -25,8 +25,8 @@ export const mappedData = {
   },
   'AABB': {
     title: '觀護人',
-    traits: ['熱情與親和力','創意與創新','耐心和細心','對品質的追求'],     
-    summary: '',
+    traits: ['耐心','同理心','細心','溝通能力'],     
+    summary: '作為觀護人，你將能夠關心並照顧他人，並在需要時提供支持和協助。',
     backgroundImg: 'result/AABB_background',
     podcastImg: 'result/AABB_podcast',
     podcastUrl: 'https://open.firstory.me/story/clf0l04nw01w901vw7mt61x33/platforms',

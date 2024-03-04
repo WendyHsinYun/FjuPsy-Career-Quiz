@@ -5,7 +5,7 @@
     .item2
     .item3
     .item4
-  span 探索結果中...
+  span 配對結果中...
 </template>
 
 <style lang="sass" scoped>
@@ -61,7 +61,8 @@ span
     width: 100%
   
 
-
-
+@media (max-width: 960px)
+  span
+    font-size: 28px
 
 </style>

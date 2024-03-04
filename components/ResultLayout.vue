@@ -13,7 +13,6 @@ v-row(no-gutters)
         :src="'restart'"
         format="webp"
         alt="restart"
-        width="200"
         preload
         placeholder)
 
@@ -33,10 +32,9 @@ v-row(no-gutters)
             :src="podcastImg"
             format="webp"
             alt="podcast"
-            width="220"
             preload
             placeholder)
-        CursorIcon.cursorIcon
+        div.clickMe
 </template>
 
 
@@ -78,7 +76,6 @@ watch(()=> props.result, (newValue)=>{
   position: absolute
   overflow: hidden
   height: 100vh
-
   .backgroundImg
     position: absolute
     width: 100%
@@ -86,6 +83,7 @@ watch(()=> props.result, (newValue)=>{
     transform: translateY(-10%)
 
   .buttonImg
+    width: 200px
     position: absolute
     left: 10%
     bottom: 10%
@@ -112,28 +110,73 @@ watch(()=> props.result, (newValue)=>{
     display: flex
     flex-direction: column
     gap: 15px
+
     .title
       font-size: 28px
       font-weight: bold
+
     .subTitle
       font-size: 22px
+
     li 
       margin-left: 20px
       font-size: 18px
+
     .summary
       font-size: 20px
+
     .podcastContainer
       display: flex
       justify-content: center
+      margin-top: 20px
+    .podcastContainer::after 
+      content: "☚ Click"
+      font-size: 22px
+      font-weight: bold
+      color: #ee8700
+      margin-top: 10%
+      animation: clickBounce 1s infinite
+
+    .podcastContainer
       .podcastImg
         box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2)
         transition: all .5s ease
+        width: 220px
       .podcastImg:hover
         transform: translate(1px, -1px)
         box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4)
-      .cursorIcon
-        position: absolute
-        right: 100px
-        bottom: 100px
-        animation: clickBounce 2s infinite
+
+@media (max-width: 960px)
+  .container
+    .backgroundImg
+      position: absolute
+      width: 250%
+      transform: translateY(0%)
+    .buttonImg
+      width: 130px
+      bottom: 5%
+      left: 15%
+    .descriptionContainer
+      width: 75%
+      top: 10%
+      left: 15%
+      box-sizing: border-box
+      border-radius: 15px
+      background-color: rgba(255, 255, 255, 0.9)
+      padding: 20px 25px
+      gap: 12px
+
+      .title
+        font-size: 22px
+        font-weight: bold
+      .subTitle
+        font-size: 18px
+      li 
+        font-size: 16px
+      .summary
+        font-size: 17px
+      .podcastContainer
+        .podcastImg
+          width: 90%
+          transform: translateX(5%)
 </style>

@@ -18,12 +18,11 @@ v-row(no-gutters)
   position: absolute
   overflow: hidden
   height: 100vh
-
   .descriptionContainer
     position: absolute
-    width: 33%
+    width: 40%
     top: 15%
-    left: 50%
+    left: 45%
     padding: 24px
     box-sizing: border-box
     border-radius: 15px
@@ -39,4 +38,14 @@ v-row(no-gutters)
     flex-direction: column
     gap: 30px
     align-items: center
+
+@media (max-width: 960px)
+  .container
+    .descriptionContainer
+      left: 20%
+      width: 65%
+      top: 10%
+    .optionsContainer
+      left: 10%
+      width: 80%
 </style>
