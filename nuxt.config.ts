@@ -56,13 +56,6 @@ export default defineNuxtConfig({
         transformAssetUrls,
       },
     },
-    css: {
-      preprocessorOptions: {
-        sass: {
-          additionalData: '@use "@/assets/sass/color.sass" as *\n'
-        }
-      }
-    }
   },
 
 });
