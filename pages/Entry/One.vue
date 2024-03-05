@@ -2,14 +2,14 @@
 v-row(no-gutters)
   v-col.container(cols='12')
     NuxtImg.backgroundImg(
-      :src="'entry1_background'"
+      :src="'v1/FJUPSY/entry1_background'"
       format="webp"
       alt="entry page1"
       preload
       placeholder)
 
     NuxtImg.adventurerImg(
-      :src="'entry1_adventurer'"
+      :src="'v1/FJUPSY/entry1_adventurer'"
       format="webp"
       alt="entry page1"
       preload
@@ -27,7 +27,7 @@ v-row(no-gutters)
 
     button(@click='nextPage') 
       NuxtImg.buttonImg(
-        :src="'entry1_button'"
+        :src="'v1/FJUPSY/entry1_button'"
         format="webp"
         alt="entry button"
         preload

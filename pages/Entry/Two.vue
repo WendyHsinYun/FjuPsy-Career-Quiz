@@ -2,7 +2,7 @@
 v-row(no-gutters)
   v-col.container(cols='12')
     NuxtImg.backgroundImg(
-      :src="'entry2_background'"
+      :src="'v1/FJUPSY/entry2_background'"
       format="webp"
       alt="entry page2"
       preload
@@ -13,7 +13,7 @@ v-row(no-gutters)
 
     button(@click='nextPage') 
       NuxtImg.buttonImg(
-        :src="'entry2_button'"
+        :src="'v1/FJUPSY/entry2_button'"
         format="webp"
         alt="entry2 button"
         preload

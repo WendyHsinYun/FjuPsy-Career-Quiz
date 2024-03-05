@@ -2,14 +2,14 @@
 QuizLayout
   template(v-slot:images)
     NuxtImg.backgroundImg(
-      :src="'quiz1_background'"
+      :src="'v1/FJUPSY/quiz1_background'"
       format="webp"
       alt="quiz1"
       preload
       placeholder)
 
     NuxtImg.roleImg(
-      :src="'quiz1_role'"
+      :src="'v1/FJUPSY/quiz1_role'"
       format="webp"
       alt="quiz1"
       preload

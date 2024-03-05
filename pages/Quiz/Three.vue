@@ -2,7 +2,7 @@
 QuizLayout
   template(v-slot:images)
     NuxtImg.backgroundImg(
-      :src="'quiz3_background'"
+      :src="'v1/FJUPSY/quiz3_background'"
       format="webp"
       alt="quiz2"
       preload

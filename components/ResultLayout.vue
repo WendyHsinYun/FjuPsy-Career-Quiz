@@ -10,7 +10,7 @@ v-row(no-gutters)
 
     button(@click='restart')
       NuxtImg.buttonImg(
-        :src="'restart'"
+        :src="'v1/FJUPSY/restart'"
         format="webp"
         alt="restart"
         preload
