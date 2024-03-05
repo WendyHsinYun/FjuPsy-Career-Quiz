@@ -116,19 +116,19 @@ const nextPage = () => {
         padding: 15px 20px
         margin: 0px 20px
     .remindContainer
-      bottom: 35%
+      bottom: 25%
       left: 50%
       transform: translateX(-55%)
-      padding: 15px 20px
-      width: 280px
+      padding: 15px
+      width: 270px
       .remindText
-        font-size: 20px
+        font-size: 18px
       .remarkText
         margin-top: 10px
-        font-size: 18px
+        font-size: 16px
     button
       width: 150px
-      bottom: 15%
+      bottom: 10%
       left: 50%
       .buttonImg
         width: 150px

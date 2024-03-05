@@ -18,7 +18,6 @@ QuizLayout
   template(v-slot:description)
     span.descriptionText 你走在狹窄的巷弄中，遇到了一位神秘的老人。他的眼神中透露出無限的智慧，他邀請你坐下來，分享他的故事。你會選擇：
 
-    
   template(v-slot:options)
     QuizButton(@click='optionA' :backgroundColor='"#395e5d"')
       span 坐下來聆聽他的故事
@@ -64,5 +63,5 @@ const optionB = () => {
   .roleImg
     width: 30%
   .descriptionText
-    font-size: 22px
+    font-size: 20px
 </style>

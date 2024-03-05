@@ -50,5 +50,5 @@ const optionB = () => {
     height: 150vh
   
   .descriptionText
-    font-size: 22px
+    font-size: 20px
 </style>

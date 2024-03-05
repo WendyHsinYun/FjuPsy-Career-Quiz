@@ -48,4 +48,5 @@ v-row(no-gutters)
     .optionsContainer
       left: 10%
       width: 80%
+      gap: 15px
 </style>
