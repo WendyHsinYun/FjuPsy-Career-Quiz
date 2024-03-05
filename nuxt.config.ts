@@ -4,14 +4,15 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 export default defineNuxtConfig({
   app: {
     head: {
+      title: '心理系職涯探索趣味測驗',
+      htmlAttrs: {
+        lang: 'zh-TW'
+      },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      htmlAttrs: {
-        lang: 'en'
-      },
       link: [
         { rel: "icon", type: "image/png", href: "" }
-      ]
+      ],
     }},
 
   devtools: { enabled: false },
