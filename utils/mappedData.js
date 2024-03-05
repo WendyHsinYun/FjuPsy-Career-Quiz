@@ -131,8 +131,8 @@ export const mappedData = {
     title: '身心靈工作者',
     traits: ['敏感性','同理心','創意'],     
     summary: '這使您適合擔任身心靈工作者。您能夠理解他人的情感和需求，並以創新的方式提供支持和指導。',
-    backgroundImg: 'result/BABB_background',
-    podcastImg: 'result/BABB_podcast',
+    backgroundImg: 'result/BBBB_background',
+    podcastImg: 'result/BBBB_podcast',
     podcastUrl: 'https://open.firstory.me/story/clht3pfg2006101x817ij34o4/platforms',
   }
 }
