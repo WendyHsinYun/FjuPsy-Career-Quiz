@@ -128,7 +128,7 @@ watch(()=> props.result, (newValue)=>{
     .podcastContainer
       display: flex
       justify-content: center
-      margin-top: 20px
+
     .podcastContainer::after 
       content: "☚ Click"
       font-size: 22px
@@ -158,7 +158,7 @@ watch(()=> props.result, (newValue)=>{
       left: 15%
     .descriptionContainer
       width: 75%
-      top: 10%
+      top: 5%
       left: 15%
       box-sizing: border-box
       border-radius: 15px
@@ -167,14 +167,14 @@ watch(()=> props.result, (newValue)=>{
       gap: 12px
 
       .title
-        font-size: 22px
+        font-size: 18px
         font-weight: bold
       .subTitle
-        font-size: 18px
+        font-size: 16px
       li 
         font-size: 16px
       .summary
-        font-size: 17px
+        font-size: 14px
       .podcastContainer
         .podcastImg
           width: 90%
