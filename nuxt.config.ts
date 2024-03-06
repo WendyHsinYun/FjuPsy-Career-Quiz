@@ -3,6 +3,9 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 
 export default defineNuxtConfig({
   app: {
+    seoMeta: {
+      ogImage: 'https://res.cloudinary.com/dyqzurvuj/image/upload/f_auto,q_auto/v1/FJUPSY/og_img'
+    },
     head: {
       title: '心理系職涯探索趣味測驗',
       htmlAttrs: {
