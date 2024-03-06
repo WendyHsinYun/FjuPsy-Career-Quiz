@@ -10,8 +10,8 @@ This project is a fun career quiz designed specifically for students of the Depa
 
 ## Participant
 
-planner, designer: Yang-Ming Huang 
-developer: Hsin-Yun Chang
+* planner, designer: Yang-Ming Huang
+* developer: Hsin-Yun Chang
 
 ## Tools Used
 Nuxt.js, Pinia sessionStorage
