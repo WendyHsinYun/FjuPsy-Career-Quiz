@@ -6,12 +6,12 @@
 
 ## Introduction
 
-This project is a fun career quiz designed specifically for students of the Department of Psychology at Fu Jen Catholic University (FJU). It aims to engage students in exploring various career paths related to psychology while providing an enjoyable experience.
+This project is a fun career quiz designed specifically for students of the Department of Psychology at Fu Jen Catholic University. It aims to engage students in exploring various career paths related to psychology while providing an enjoyable experience.
 
 ## Participant
 
-* planner, designer: Yang-Ming Huang
-* developer: Hsin-Yun Chang
+* Planner/Designer: Yang-Ming Huang
+* Developer: Hsin-Yun Chang
 
 ## Tools Used
 Nuxt.js, Pinia sessionStorage
